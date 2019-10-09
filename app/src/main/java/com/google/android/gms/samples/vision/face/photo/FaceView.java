@@ -35,7 +35,6 @@ import com.google.android.gms.vision.face.Landmark;
 public class FaceView extends View {
     private Bitmap mBitmap;
     private SparseArray<Face> mFaces;
-
     public FaceView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }

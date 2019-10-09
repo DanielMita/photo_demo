@@ -5,6 +5,7 @@
     android:versionCode="1"
     android:versionName="1" >
 
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:hardwareAccelerated="true"
